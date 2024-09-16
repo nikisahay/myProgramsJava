@@ -13,8 +13,8 @@ public class FirstTest {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.gecko.driver", "C:\\Project related\\drivers\\geckodriver-v0.34.0-win32\\geckodriver.exe");
 	     // Initialize Gecko Driver using Desired Capabilities Class  
-	    FirefoxOptions options = new FirefoxOptions();
-	    WebDriver driver = new FirefoxDriver(options);
+	    //FirefoxOptions options = new FirefoxOptions();
+	    WebDriver driver = new FirefoxDriver();
 		
 	    try {
 		driver.navigate().to("http://www.google.com/");
